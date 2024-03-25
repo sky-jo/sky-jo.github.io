@@ -1,7 +1,7 @@
 ---
-title: "Skyler DeVaughn"
-collection: researchers
-type: "Researcher"
+name: "Skyler DeVaughn"
+collection: team
+role: "Researcher"
 permalink: /team/Skyler-DeVaughn
 ---
 
