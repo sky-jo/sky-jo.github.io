@@ -1,5 +1,8 @@
 ---
-
+layout: archive
+title: "News"
+permalink: /news/
+author_profile: true
 ---
 
 # News Item 1, March 25th 2024
