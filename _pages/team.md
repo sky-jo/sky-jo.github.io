@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Team"
+permalink: /team/
+author_profile: true
+---
+
 # Team Page
 
 Later, we can put all of the researcher working for Dr. Latypov! It will be super cool 🔥
