@@ -5,6 +5,10 @@ permalink: /team/
 author_profile: true
 ---
 
+{% include base_path %}
+{% for post in site.researchers %}
+    {% include archive-single.html %}
+{% endfor %}
 # Team Page
 
 Later, we can put all of the researcher working for Dr. Latypov! It will be super cool 🔥
