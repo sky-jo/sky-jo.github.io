@@ -1,7 +1,7 @@
 ---
 name: "Marat Latypov"
 collection: team
-type: "Lead Researcher"
+role: "Lead Researcher and Assistant Professor"
 permalink: /team/Marat-Latypov
 ---
 
