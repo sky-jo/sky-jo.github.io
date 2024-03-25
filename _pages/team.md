@@ -7,7 +7,7 @@ author_profile: true
 
 {% for member in site.team %}
   <div class="team-member">
-    <h2>{{ member.name }}</h3>
+    <h2>{{ member.name }}</h2>
     <h3>{{ member.role }}</h3>
     <div>
       {{ member.content | markdownify }}
