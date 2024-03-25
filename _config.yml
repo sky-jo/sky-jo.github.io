@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Material Informatics Research Group"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Marat Latypov"
 description              : &description "personal description"
 url                      : https://sky-jo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -209,6 +209,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  team:
     output: true
     permalink: /:collection/:path/
 

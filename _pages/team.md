@@ -5,7 +5,10 @@ permalink: /team/
 author_profile: true
 ---
 
-{% include base_path %}
-{% for post in site.researchers %}
-    {% include archive-single.html %}
+{% for member in site.team %}
+  <div class="team-member">
+    <h3>{{ member.name }}</h3>
+    <p>{{ member.role }}</p>
+    <a href="{{ member.url }}">Read more</a>
+  </div>
 {% endfor %}
