@@ -205,6 +205,10 @@ collections:
   team:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 # Defaults
