@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "about material informating research group"
+title: "About Material Informating Research Group"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# About
 
 Welcome to the Materials Informatics Lab, nestled in the vibrant academic environment of the University of Arizona in Tucson AZ. Our group is advancing computational materials research and materials informatics, pioneering innovative approaches to fundamental understanding and design of advanced materials.
 

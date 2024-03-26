@@ -5,10 +5,11 @@ permalink: /news/
 author_profile: true
 ---
 
-# News Item 1, March 25th 2024
+{% for announcement in in site.news %}
+    <h1>{% announcement.title %}</h1>
+    <h3>{% announcement.data %}</h3>
+    <div>
+        {{{ announcement.content | markdownify }}}
+    </div>
 
-Wow, something crazy happened today. 
-
-# News Item 2, July 6, 2001
-
-No way!
+{% endfor %}
