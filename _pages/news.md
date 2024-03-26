@@ -5,7 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
-{% for announcement in in site.news %}
+{% for announcement in site.news %}
 
     <h1>{{ announcement.title }}</h1>
     <h3>{{ announcement.data }}</h3>
