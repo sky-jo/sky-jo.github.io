@@ -214,7 +214,7 @@ defaults:
       path: ""
       type: team
     values:
-      layout: team
+      layout: single
   # _posts
   - scope:
       path: ""
