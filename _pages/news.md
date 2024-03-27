@@ -10,11 +10,12 @@ author_profile: true
         <h1>{{ announcement.title }}</h1>
         <h3>{{ announcement.date }}</h3>
         <div class="announcement-content">
-            {% if announcement.content | size > 300 %}
-                {{ announcement.content | markdownify | truncatewords: 50, '...' }}
+            {% capture content %}{% raw %}{{ announcement.content | markdownify }}{% endraw %}{% endcapture %}
+            {% if content | size > 300 %}
+                {{ content | truncatewords: 50, '...' }}
                 <a href="{{ announcement.url }}" style="background-color: #007bff; color: white; padding: 5px 10px; border: none; border-radius: 5px; text-decoration: none;">View More</a>
             {% else %}
-                {{ announcement.content | markdownify }}
+                {{ content }}
             {% endif %}
         </div>
     </div>
