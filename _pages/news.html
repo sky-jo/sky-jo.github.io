@@ -9,7 +9,7 @@ author_profile: true
     <div class="news">
         <h1>{{ announcement.title }}</h1>
         <h3>{{ announcement.data }}</h3>
-        {% if announcement.content >}
+        {% if announcement.content %}
         <div>
             {{ announcement.content | markdownify }}
         </div>
