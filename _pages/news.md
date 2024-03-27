@@ -12,24 +12,10 @@ author_profile: true
         <div class="announcement-content">
             {% if announcement.content | size > 300 %}
                 {{ announcement.content | markdownify | truncatewords: 50, '...' }}
-                <a href="{{ announcement.url }}" class="view-more-btn">View More</a>
+                <a href="{{ announcement.url }}" style="background-color: #007bff; color: white; padding: 5px 10px; border: none; border-radius: 5px; text-decoration: none;">View More</a>
             {% else %}
                 {{ announcement.content | markdownify }}
             {% endif %}
         </div>
     </div>
 {% endfor %}
-
-<style>
-.view-more-btn {
-    background-color: #007bff;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.view-more-btn:hover {
-    background-color: #0056b3;
-}
-</style>
